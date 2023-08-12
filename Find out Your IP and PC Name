@@ -1,0 +1,5 @@
+import socket
+hostname=socket.gethostname()
+IpAddr=socket.gethostbyname(hostname)
+print("Your Computer name is:"+hostname)
+print("Your PC IP is:"+IpAddr)
